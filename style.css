@@ -1,0 +1,69 @@
+.container{
+    text-align: center;
+    margin-top: 5%;
+
+}
+#input{ 
+    width: 60%;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 23, 28);
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px, 3px, 7px black;
+}
+
+
+body {
+    background-color: rgb(184, 184, 184);
+    background: linear-gradient(90deg, rgb(226, 225, 225) 0%, rgb(255, 255, 255) 150%);
+}
+#searchButton { 
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(106, 106, 106);
+    color: aliceblue;
+    border: none;
+}
+#searchButton:hover {
+    background-color: rgb(75, 151, 245);
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+#clearButton {
+    
+    margin-top: 20px;
+    margin-right: 40px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(255, 6, 6);
+    color: aliceblue;
+    border: none;
+
+}
+#clearButton:hover {
+    background-color: rgb(174, 19, 19);
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#wrapper > .Card {
+    margin: 20px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 3px 5px 8px grey;
+}
+
